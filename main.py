@@ -53,4 +53,5 @@ c = input('Enter Word: ').lower()
 for i in str(c):
   if str(i) != morse_dict[str(i)]:
     print(f"character {i} does not exist")
+  else:
     print(morse_dict[str(i)])
